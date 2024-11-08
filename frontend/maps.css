@@ -1,0 +1,28 @@
+#map{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 80vh;
+    }
+
+h3{
+    margin: 0; 
+    text-align: center;
+    font-weight: 600;
+    color:cornflowerblue;
+    background:#212121;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    padding: 2rem 2%;
+}
+.container{
+    text-align: center;
+}
+p{
+    text-align: center;
+
+}
+.redcase{
+    color: rgb(224,49,49)
+}

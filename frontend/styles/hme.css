@@ -1,0 +1,394 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.header{
+
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: #002366;
+  width: 100%;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+.logo{
+  float: left;
+  height: 20%;
+  width: 18%;
+  margin-top: 10px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color:#fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: black;
+}
+ul li.active a{
+  background-color: #fff;
+  color: black;
+}
+.main{
+  max-width: 1200px;
+  margin:auto
+}
+.title{
+  position: absolute;
+  text-align: center;
+  top:35%;
+  left:50%;
+  right: 50%;
+  bottom: 20%;
+  transform: translate(-50%,-50%);
+}
+.title h3{
+  color: #FCF8E8;
+  font-family: 'Besley', serif;;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px auto 100px auto;
+
+}
+.but{
+display: flex;
+justify-content: center;
+width:100%;
+
+}
+
+/*.btns{
+
+}*/
+.button{
+  position: absolute;
+  text-align: center;
+  top:45%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  transition: 0.6s ease;
+
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  margin-left: 20px;
+  color: white;
+}
+.btn:hover{
+  background-color: #fff;
+  color: black;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+.card{
+  border-radius: 0%;
+  box-shadow: 10px 10px 15px #035397;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  
+
+
+}
+
+.card:hover{
+background: #5089C6;
+color: #fff;
+border-radius: 5px;
+border: none;
+box-shadow: 5px 5px 15px #9e9e9e;
+}
+.row{
+padding: 0px 30px 0px 30px;
+}
+.card-header{
+  text-align: center;
+}
+.card-body{
+  text-align: center;
+}
+
+
+#pricing{
+padding:60px;
+text-align: center;
+
+}
+
+.price-text{
+font-size:3rem;
+line-height: 1.5;
+}
+
+.pricing-column{
+padding:3% 2%;
+}
+
+#testimonials{
+
+background-color:#5089C6;
+color:#fff;
+text-align: center;
+height: 400px;
+padding-top: 150px;
+
+
+}
+
+.testimonial-text{
+font-size: 1.5rem;
+line-height: 3.0;
+
+}
+
+.testimonial-image{
+width:10%;
+border-radius:100%;
+margin:20px;
+}
+
+#press{
+background-color: #EF8172;
+padding-bottom:3%;
+}
+
+.press-logo{
+width:15%;
+margin:20px 20px 50px;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* @media screen and (min-width: 680px) {
+  title {
+
+  }
+} */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+* :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row {
+  align-items: center;
+  text-align: justify;
+}
+
+.section-container-spacer {
+  margin:10px 30px 0px 30px;
+  text-align: center justify;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+h1{
+  margin-top: 27px;
+  margin-bottom: 13.5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  color:#000;
+  font-size: 20px;
+}
+.pull-right{
+  padding-right:15px;
+  padding-left:0;
+  border-right:5px solid #eee;
+  border-left:0;text-align:right
+}
+.footer-container {
+  padding: 30px 0;
+  border-top: 1px solid #eee;
+  background-color: #90AACB;
+
+}
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+/*@media (min-width: 1200px)*/
+.container {
+    width: 1170px;
+}
+.row {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.row:after {
+  clear: both;
+}
+
+.row:after, .row:before {
+  content: " ";
+  display: table;
+}
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.col-md-4 {
+  width: 33.33333%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fa-icon {
+  color: black;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+}
+.fa-icon .fa {
+  border: none;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+  content: "\f09a";
+}
+
+a {
+  color: #8b62ff;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+small,a,h4{
+  font-family: 'Times New Roman', Times, serif;
+}
+h4{
+  padding-top: 0;
+  margin-top: 0;
+  color: #000;
+}
+
+
+
+
+
+
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+width: 60%;
+margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  padding: 25px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  font-size: 20px;
+}
+.faq-body{
+  /* text-align: center; */
+  margin: auto 345px;
+ width: 50%; 
+ padding: 25px;
+ font-size: 15px;
+ 
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  text-align: justify;
+}
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
